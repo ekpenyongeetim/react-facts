@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  background-color: #b7ddf7;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 30px 25px;
+  height: 90px;
+}
+
+nav.dark {
+  background-color: #21222a;
+}
+nav.light {
+  background-color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.nav--logo-text {
+  color: #61dafb;
+  font-weight: 700;
+  margin-right: auto;
+  font-size: 22px;
+}
+
+.nav--title {
+  color: #deebf8;
+  font-weight: 600;
+}
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+}
+
+.dark .toggler--light {
+  font-weight: bold;
+  color: #282d35;
+}
+.dark .toggler--dark {
+  font-weight: bold;
+  color: #fff;
+}
+
+.light .toggler--dark {
+  color: rgba(225, 225, 225, 0.9);
+}
+.light .toggler--light {
+  font-weight: bold;
+  color: #282d35;
+}
+
+main {
+  padding: 57px 27px;
+  color: #deebf8;
+  position: relative;
+  background-image: url("./react-gray-half.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: 10px;
+  background-size: 30%;
+  height: 100vh;
+}
+main.dark {
+  background-color: #282d35;
+  color: #fff;
+}
+
+main.light {
+  color: #21222a;
+  background-color: #fff;
+}
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 8px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.2rem;
+  color: #61dafb;
+}
+
+.main--icon {
+  width: 30%;
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+
+/* toggle css */
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.toggler {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.toggler--light {
+  margin-right: 10px;
+}
+
+.toggler--dark {
+  margin-left: 10px;
+}
+
+.switch1 {
+  display: flex;
+}
