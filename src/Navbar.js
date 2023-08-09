@@ -1,7 +1,7 @@
 import React from "react";
 import ReactSwitch from "react-switch";
 
-// git push --all     use this to commit chnages
+// npm run deploy to comit changes to gh-pages
 
 function Navbar(props) {
   return (
