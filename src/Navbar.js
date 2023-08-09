@@ -4,7 +4,7 @@ import ReactSwitch from "react-switch";
 function Navbar(props) {
   return (
     <nav className={props.darkMode ? "dark" : "light"}>
-      <img src="../logo192.png" className="nav--icon" />
+      <img src="./logo192.png" className="nav--icon" />
       <h3 className="nav--logo-text">ReactFacts</h3>
 
       <div className="toggler">
