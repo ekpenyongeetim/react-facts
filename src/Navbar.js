@@ -1,6 +1,8 @@
 import React from "react";
 import ReactSwitch from "react-switch";
 
+// git push --all     use this to commit chnages
+
 function Navbar(props) {
   return (
     <nav className={props.darkMode ? "dark" : "light"}>

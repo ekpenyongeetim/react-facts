@@ -10,7 +10,7 @@ function Main(props) {
         <li>Have well over 100k stars on Github</li>
         <li>Is maintained by facebook</li>
         <li>Powers thousands of enterprise Apps, including mobile APps</li>
-        <li>It is your one stop App</li>
+        <li>It is your one-stop App</li>
       </ul>
     </main>
   );
